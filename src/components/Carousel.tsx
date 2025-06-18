@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
@@ -20,6 +20,14 @@ export function Carousel() {
   const nextSlide = () => {
     setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative w-full max-w-4xl h-64 md:h-96 mx-auto overflow-hidden rounded-2xl shadow-lg mt-10">
@@ -43,13 +51,12 @@ export function Carousel() {
         <ChevronRight />
       </button>
 
-
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
         {images.map((_, idx) => (
           <div
             key={idx}
             onClick={() => setCurrent(idx)}
-            className={`w-3 h-3 rounded-full cursor-pointer ${
+            className={`w-3 h-3 rounded-full cursor-pointer transition ${
               idx === current ? "bg-white" : "bg-white/50"
             }`}
           />
