@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-carolinearrestam\src\utils\feedingUtils.ts - no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.,no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller både G- och VG-kraven. Den innehåller en router med korrekt användning av layouts och child-routes, samt hanterar felbilder och djurmatningstider effektivt. Dessutom används context och reducers för status- och informationshantering mellan komponenter. Animeringar finns vid klick och sidan är välstrukturerad med tydliga gränssnitt.
+📌 **Motivering:** Koden uppfyller både G- och VG-krav, reducer och context används, och fler avancerade CSS-tekniker har implementerats. Dock är vissa detaljer angående hooks och context svåra att verifiera bara från utdrag.
 
 💡 **Förbättringsförslag:**  
-Koden kan förbättras genom att öka testtäckningen för att säkerställa att alla delar av applikationen fungerar som väntat, särskilt vid nätverksfel eller ändrade API-svar. Code splitting kan implementeras för att optimera initiala sidladdningstider. Dessutom kan tillgängligheten förstärkas genom att lägga till fler ARIA-attribut och kontrollera kontraster enligt WCAG-standarder.
+Det skulle vara nyttigt att se en komplett implemetering av både router och context för att verifiera att allt fungerar sömlöst. Animeringar kan betonas mer i koden för ökad användarupplevelse.
