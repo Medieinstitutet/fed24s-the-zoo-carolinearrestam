@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-carolinearrestam
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-carolinearrestam\src\utils\feedingUtils.ts - no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.,no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller både G- och VG-kraven. Projektet är välstrukturerat och använder sig effektivt av React-funktioner som router, context och reducers. Styling är genomgående med Tailwind CSS och felhantering av bilder är genomtänkt.
+📌 **Motivering:** Projektet uppfyller alla krav för båda G och VG med bra strukturerad kod och korrekt hantering av funktionalitet.
 
 💡 **Förbättringsförslag:**  
-Det kan vara tydligare att visa hur matningen nollställs specifikt vid återkomst till sidan och möjligtvis förbättrade tester för eventhantering. Dessa förbättringar skulle säkerställa korrekt funktionalitet och användarupplevelse.
+Koden är redan väl genomförd, men framtida studenter kan utforska fler CSS-moduler eller förbättra prestanda genom kodsplitting.
