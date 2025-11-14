@@ -68,13 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-carolinearrestam\src\utils\feedingUtils.ts - no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.,no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både betyg G och VG. Studenten har implementerat alla nödvändiga funktioner, inklusive användning av router för navigering, korrekt hantering av trasiga bildlänkar och avancerad styling med en annan teknik än ren CSS. Kontext och reducers används effektivt för att hantera tillstånd och dataflöde, och subtila animeringar förbättrar användarupplevelsen. Koden är välstrukturerad och visar en god förståelse för både grundläggande och avancerade koncept inom frontend-utveckling.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Funktionaliteten för att visa olika sidor med hjälp av en router är implementerad, och det finns en översiktssida där djur kan klickas på för mer information. Felhantering för trasiga bildlänkar är också korrekt implementerad. CSS-styling är genomförd med en teknik utöver ren CSS, vilket är ett krav för G. För att nå VG krävs implementering av mer avancerade tekniker som context, reducers och animeringar, vilket inte är uppfyllt.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra projektet kan studenten fokusera på följande områden: 
-1. **Kodstruktur och Organisation**: Säkerställ att alla komponenter är konsekvent namngivna och att filstrukturen är intuitiv för att underlätta framtida underhåll och skalbarhet. 
-2. **Kodkvalitet**: Lägg till fler kommentarer i koden för att förklara komplexa logikdelar, vilket kan hjälpa andra utvecklare (eller framtida dig) att förstå koden snabbare. 
-3. **Error Handling**: Utöka felhanteringen för att täcka fler potentiella fel, särskilt vid nätverksanrop, för att förbättra användarupplevelsen vid problem med API:et. 
-4. **Prestanda**: Analysera och optimera komponenternas rendering för att säkerställa att applikationen förblir responsiv, även med större datamängder. 
-5. **Användargränssnitt**: Förbättra användargränssnittet genom att implementera fler subtila animeringar och övergångar, vilket kan göra användarupplevelsen mer engagerande.
+För att nå VG bör studenten implementera datahämtning med tjänster eller en custom hook, använda context för komponentkommunikation istället för props, och hantera djurens tillstånd med reducers istället för state. Användning av subtila animeringar vid interaktioner och sidladdningar skulle också förbättra användarupplevelsen. Det finns också utrymme för att förbättra kodens läsbarhet genom att lägga till fler kommentarer och säkerställa att alla funktioner och variabler följer en konsekvent namngivningskonvention. Error handling kan förbättras genom att hantera fler potentiella fel och ge användaren tydligare feedback vid fel.
