@@ -66,14 +66,10 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-carolinearrestam\src\utils\feedingUtils.ts - no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.,no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.
+- /app/repos/fed24s-the-zoo-carolinearrestam/src/utils/feedingUtils.ts - no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.,no-unused-vars - 'lastFed' is defined but never used.,no-unused-vars - 'view' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är funktionell och implementerar de nödvändiga funktionerna som krävs för att hantera djurens matningsstatus och navigering mellan sidor. Dock finns det flera områden där förbättringar kan göras för att uppnå ett högre betyg, såsom optimering av context och reducers samt implementering av subtila animeringar.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är organiserad och strukturerad på ett sätt som gör det enkelt att navigera och förstå. De flesta av de funktionella kraven är implementerade, inklusive användning av en router, hantering av bildfel, och korrekt implementering av matningslogik. Felhantering och kodkvalitet är överlag bra, men det finns utrymme för förbättringar i vissa områden. För att nå VG krävs implementation av context API och reducers för state management samt subtila animeringar för att förbättra användarupplevelsen.
 
 💡 **Förbättringsförslag:**  
-1. **Kodstruktur och Organisation**: Förbättra filstrukturen genom att organisera komponenter i mappar baserat på funktionalitet, till exempel separata mappar för komponenter, hooks och context. 
-2. **Kodkvalitet**: Öka läsbarheten genom fler kommentarer och konsekvent användning av naming conventions. Minska kodupprepning genom att bryta ut gemensam funktionalitet till egna funktioner eller komponenter. 
-3. **Funktionalitet**: Förbättra felhantering av bildlänkar och säkerställ att alla länkar hanteras korrekt. 
-4. **Prestandaoptimering**: Använd memoization och lazy loading där det är möjligt för att förbättra prestanda. 
-5. **VG-krav**: För att uppnå VG, implementera subtila animeringar vid interaktioner och använd tjänster eller custom hooks för datahämtning.
+1. Använd mer omfattande kommentarer för att förklara komplexa logikdelar och komponenters syfte. 2. Implementera mer konsekvent användning av naming conventions för variabler och funktioner. 3. Minska kodupprepning genom att identifiera gemensamma mönster och extrahera dem till återanvändbara funktioner eller komponenter. 4. Förbättra error handling genom att lägga till mer specifika felmeddelanden och hantering av undantag. 5. Överväg att använda en mer avancerad CSS-teknik eller ramverk för att förbättra stilhanteringen och användarupplevelsen. 6. För att uppnå VG, implementera context API och reducers för state management, samt subtila animeringar för en mer dynamisk användarupplevelse.
